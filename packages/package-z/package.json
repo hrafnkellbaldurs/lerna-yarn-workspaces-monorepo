@@ -1,0 +1,12 @@
+{
+    "name": "@my-scope/package-z",
+    "version": "1.0.0",
+    "main": "index.js",
+    "dependencies": {
+        "@my-scope/package-y": "1.0.0"
+    },
+    "scripts": {
+        "start": "node ."
+    },
+    "licence": "MIT"
+}
