@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.1](https://github.com/hrafnkellbaldurs/lerna-yarn-workspaces-monorepo/compare/@my-scope/package-x@1.2.0...@my-scope/package-x@1.2.1) (2020-02-06)
+
+**Note:** Version bump only for package @my-scope/package-x
+
+
+
+
+
 # [1.2.0](https://github.com/hrafnkellbaldurs/lerna-yarn-workspaces-monorepo/compare/@my-scope/package-x@1.1.0...@my-scope/package-x@1.2.0) (2020-02-06)
 
 
