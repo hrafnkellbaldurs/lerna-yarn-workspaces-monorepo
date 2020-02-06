@@ -13,7 +13,10 @@
     "start": "lerna run start",
     "test": "lerna run test",
     "build": "lerna run build",
-    "new-version": "lerna version --conventional-commits"
+    "new-version": "lerna version --conventional-commits",
+    "package-x": "package-x",
+    "package-y": "package-y",
+    "package-z": "package-z"
   },
   "licene": "MIT"
 }
