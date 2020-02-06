@@ -1,5 +1,8 @@
-const x = require('@my-scope/package-x');
+const packageX = require('@my-scope/package-x').default;
 
-module.exports = function y() {
-    return 'Hello from y, ' + x();
+function packageY() {
+    return 'Hello from package-y, ' + packageX();
 };
+
+exports.default = packageY;
+exports.packageY = packageY; 
