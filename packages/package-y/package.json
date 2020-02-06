@@ -9,7 +9,8 @@
         "@my-scope/package-x": "^1.2.0"
     },
     "scripts": {
-        "start": "node ."
+        "start": "node .",
+        "test": "echo Testing..."
     },
     "licence": "MIT"
 }
