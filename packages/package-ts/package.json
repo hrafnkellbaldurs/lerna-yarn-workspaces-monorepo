@@ -8,7 +8,7 @@
         "typescript-bundle": "^1.0.16"
     },
     "scripts": {
-        "start": "open index.html && yarn build:browser --watch",
+        "start": "yarn build:browser --watch",
         "build:browser": "tsc-bundle src/renderExamples.ts --outFile dist/renderExamples.js --target es5",
         "build": "rm -rf dist && tsc",
         "test": "echo Testing..."
