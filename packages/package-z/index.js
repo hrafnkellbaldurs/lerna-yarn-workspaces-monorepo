@@ -1,3 +1,9 @@
-const y = require('@my-scope/package-y');
+const packageY = require('@my-scope/package-y').default;
 
-console.log('Hello from z, ' + y());
+function packageZ(message) {
+    return 'Hello from package-z, ' + packageY() + (message || '');
+}
+
+exports.default = packageZ;
+exports.packageZ = packageZ; 
+
