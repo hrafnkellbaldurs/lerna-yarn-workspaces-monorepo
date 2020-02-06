@@ -18,7 +18,11 @@
     "package-y": "package-y",
     "package-z": "package-z"
   },
-  "licene": "MIT"
+  "licene": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hrafnkellbaldurs/lerna-yarn-workspaces-monorepo.git"
+  }
 }
 
 
