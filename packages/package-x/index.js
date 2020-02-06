@@ -1,3 +1,6 @@
-module.exports = function x() {
-    return 'Hello from x';
+function packageX() {
+    return 'Hello from package-x';
 }
+
+exports.default = packageX;
+exports.packageX = packageX;
