@@ -1,12 +1,12 @@
 {
     "name": "@my-scope/package-z",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "main": "index.js",
     "bin": {
         "package-z": "./bin/package-z"
     },
     "dependencies": {
-        "@my-scope/package-y": "^1.1.0"
+        "@my-scope/package-y": "^1.2.0"
     },
     "scripts": {
         "start": "node ."
