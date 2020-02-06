@@ -1,0 +1,16 @@
+{
+    "name": "@my-scope/package-ts",
+    "version": "0.0.1",
+    "main": "dist/index.js",
+    "types": "dist/types/index.d.ts",
+    "devDependencies": {
+        "typescript": "^3.7.5"
+    },
+    "scripts": {
+        "start": "yarn build --watch",
+        "build:browser": "npx typescript-bundle index.ts --outFile index.js --target es5",
+        "build": "rm -rf dist && tsc",
+        "test": "echo Testing..."
+    },
+    "license": "MIT"
+}
