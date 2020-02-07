@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/hrafnkellbaldurs/lerna-yarn-workspaces-monorepo/compare/@my-scope/package-ts@0.1.1...@my-scope/package-ts@0.1.2) (2020-02-07)
+
+
+### Bug Fixes
+
+* **@my-scope/package-ts:** Made start script open index.html file ([2d98658](https://github.com/hrafnkellbaldurs/lerna-yarn-workspaces-monorepo/commit/2d986588cc3b41c07815f8c653dd145beeacbd7c))
+
+
+
+
+
 ## [0.1.1](https://github.com/hrafnkellbaldurs/lerna-yarn-workspaces-monorepo/compare/@my-scope/package-ts@0.1.0...@my-scope/package-ts@0.1.1) (2020-02-06)
 
 
