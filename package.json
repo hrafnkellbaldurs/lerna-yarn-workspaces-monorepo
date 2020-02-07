@@ -16,7 +16,8 @@
     "new-version": "lerna version --conventional-commits",
     "package-x": "package-x",
     "package-y": "package-y",
-    "package-z": "package-z"
+    "package-z": "package-z",
+    "package-ts": "lerna run start --scope=@my-scope/package-ts"
   },
   "licene": "MIT",
   "repository": {
